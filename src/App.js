@@ -2,17 +2,17 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Alert from './components/Alert';
 import TextArea from './components/TextArea';
-import About from './components/About';
+// import About from './components/About';
 import React, { useState } from 'react';
-import {
-	BrowserRouter,
-	Routes,
-	Route
-} from "react-router-dom";
+// import {
+// 	BrowserRouter,
+// 	Routes,
+// 	Route
+// } from "react-router-dom";
 
 function App() {
 
-	const [mode, setmode] = useState("light");
+	const [mode, setmode] = useState("dark");
 	const [alert_content, change_alert_content] = useState(null);
 
 	const add_alert_content = (msg, typ) => {
@@ -41,7 +41,9 @@ function App() {
 
 	return (
 		<>
-			<BrowserRouter>
+			{/* WITH ROUTER */}
+
+			{/* <BrowserRouter>
 				<Navbar title="Easy Text Utils" toggleMode={toggleMode} />
 				<div className="container">
 					<Alert alert_content={alert_content} />
@@ -53,7 +55,16 @@ function App() {
 							element={<TextArea mode={mode} add_alert_content={add_alert_content} />} />
 					</Routes>
 				</div>
-			</BrowserRouter>
+			</BrowserRouter> */}
+
+			{/* WITHOUT ROUTER */}
+
+			<Navbar title="Easy Text Utils" toggleMode={toggleMode} />
+			<div className="container">
+				<Alert alert_content={alert_content} />
+				<TextArea mode={mode} add_alert_content={add_alert_content} />
+			</div>
+
 
 		</>
 	);

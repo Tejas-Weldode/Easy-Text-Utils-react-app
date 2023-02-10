@@ -55,11 +55,11 @@ export default function TextArea(props) {
 
             <h4 className={`my-4 text-${altmode}`}>Choose an action</h4>
             
-            <button type="button" className={`btn btn-outline-${altmode} me-3`} onClick={Uppercase}>Change to Upper Case</button>
-            <button type="button" className={`btn btn-outline-${altmode} me-3`} onClick={Lowercase}>Change to Lower Case</button>
-            <button type="button" className={`btn btn-outline-${altmode} me-3`} onClick={Capitalize}>Capitalize</button>
-            <button type="button" className={`btn btn-outline-${altmode} me-3`} onClick={Clear}>Clear</button>
-            <button type="button" className={`btn btn-outline-${altmode} me-3`} onClick={Copy}>Copy</button>
+            <button type="button" className={`btn btn-outline-${altmode} me-3 my-2`} onClick={Uppercase}>Change to Upper Case</button>
+            <button type="button" className={`btn btn-outline-${altmode} me-3 my-2`} onClick={Lowercase}>Change to Lower Case</button>
+            <button type="button" className={`btn btn-outline-${altmode} me-3 my-2`} onClick={Capitalize}>Capitalize</button>
+            <button type="button" className={`btn btn-outline-${altmode} me-3 my-2`} onClick={Clear}>Clear</button>
+            <button type="button" className={`btn btn-outline-${altmode} me-3 my-2`} onClick={Copy}>Copy</button>
 
             <div className="card text-light bg-secondary my-4">
                 <div className="card-body">
