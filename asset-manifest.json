@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Easy-Text-Utils-react-app/static/css/main.851a7810.css",
+    "main.js": "/Easy-Text-Utils-react-app/static/js/main.d9004a3d.js",
+    "static/js/787.fd0dbd77.chunk.js": "/Easy-Text-Utils-react-app/static/js/787.fd0dbd77.chunk.js",
+    "index.html": "/Easy-Text-Utils-react-app/index.html",
+    "main.851a7810.css.map": "/Easy-Text-Utils-react-app/static/css/main.851a7810.css.map",
+    "main.d9004a3d.js.map": "/Easy-Text-Utils-react-app/static/js/main.d9004a3d.js.map",
+    "787.fd0dbd77.chunk.js.map": "/Easy-Text-Utils-react-app/static/js/787.fd0dbd77.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.851a7810.css",
+    "static/js/main.d9004a3d.js"
+  ]
+}
