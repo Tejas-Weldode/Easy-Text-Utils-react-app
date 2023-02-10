@@ -41,7 +41,7 @@ export default function TextArea(props) {
         props.add_alert_content("Copied to clipboard","info");
     }
 
-    let wordCount = text.split(" ").length;
+    let wordCount = text.split(/\s+/).length;
     if (text[text.length - 1] === " " || text.length === 0) {
         wordCount = wordCount - 1;
     }
